@@ -2,6 +2,12 @@
 
 module.exports = function(environment) {
   var ENV = {
+    firebase: {
+    apiKey: "AIzaSyBR1mMYNu0YXSf3gLc_A3iPMpwGnPwTQjA",
+    authDomain: "qna-review.firebaseapp.com",
+    databaseURL: "https://qna-review.firebaseio.com",
+    storageBucket: "qna-review.appspot.com",
+  },
     modulePrefix: 'qn-a',
     environment: environment,
     baseURL: '/',
