@@ -5,11 +5,10 @@
   </div>
   {{#each model as |question|}}
   <div class="question">
-    {{question-tile question=question}}
+    {{question-tile answer="answer" question=question}}
   </div>
   {{/each}}
+  {{new-question save2="save3"}}
+  {{#link-to 'about'}}About{{/link-to}}
+  {{#link-to 'info'}}Contact Info{{/link-to}}
 </div>
-
-
-{{#link-to 'about'}}About{{/link-to}}
-{{#link-to 'info'}}Contact Info{{/link-to}}

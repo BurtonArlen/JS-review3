@@ -8,6 +8,9 @@ export default Ember.Component.extend({
     },
     answerHide: function(){
       this.set('isAnswerShow', false);
+    },
+    answer(question, params) {
+      this.sendAction('answer', question, params);
     }
   }
 });
