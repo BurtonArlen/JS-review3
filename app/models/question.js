@@ -4,6 +4,6 @@ import Model from 'ember-data/model';
 
 export default Model.extend({
   author: DS.attr(),
-  question: DS.attr(),
+  ask: DS.attr(),
   answer: DS.attr()
 });
